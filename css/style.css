@@ -1,0 +1,61 @@
+body {
+    background-color: lightblue;
+    background-image: url(../img/more-leaves-on-green.png);
+    color: white;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 70px;
+    color: blue;
+}
+
+p {
+    color: navy;
+}
+
+/* classes */
+.intro {
+    font-size: 30px;
+}
+
+.highlight {
+    background: yellow;
+}
+
+.accent-color {
+    color: red;
+}
+
+.top-section {
+    background: pink;
+}
+
+.bottom-section {
+    background: green;
+}
+
+/* box model */
+/*
+    margin: spacing around outside of box
+    border: "frame" around the box
+    padding: spacing on inside of box
+*/
+
+.box {
+    margin: 100px;
+    /* size, style, color */
+    border: 10px solid red;
+    /* 4 entries: top, right, bottom, left (clockwise) */
+    /* 2 entries: top/bottom, left/right */
+    padding: 50px 100px 300px 25px;
+
+    background: pink;
+    background-image: url(../img/balancebot.png);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    
+    
+}
