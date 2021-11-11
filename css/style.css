@@ -1,20 +1,18 @@
 body {
     background-color: lightblue;
-    background-image: url(../img/more-leaves-on-green.png);
-    color: white;
     font-size: 21px;
 }
 
 h1 {
     font-size: 70px;
-    color: blue;
+    color: darkblue;
 }
 
 p {
     color: navy;
 }
 
-/* classes */
+/* classes begin with a "." */
 .intro {
     font-size: 30px;
 }
@@ -43,19 +41,11 @@ p {
 */
 
 .box {
-    margin: 100px;
-    /* size, style, color */
-    border: 10px solid red;
-    /* 4 entries: top, right, bottom, left (clockwise) */
-    /* 2 entries: top/bottom, left/right */
-    padding: 50px 100px 300px 25px;
-
-    background: pink;
-    background-image: url(../img/balancebot.png);
-    background-size: cover;
-    background-position: center;
     width: 500px;
     height: 500px;
-    
-    
+    background: pink;
+
+    margin: 100px;
+    border: 10px solid red; /* size, style, color */
+    padding: 50px 100px 300px 25px; /* top, right, bottom, left (clockwise) OR top/bottom, left/right */
 }

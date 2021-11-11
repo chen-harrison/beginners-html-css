@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+    color: darkgreen;
+    font-size: 21px;
+
+    /* go to https://www.cssfontstack.com/ for font families */
+    /* quotation marks for fonts with spaces */
+    font-family: sans-serif, monospace;
+}
+
+h1 {
+    font-size: 70px;
+    color: darkblue;
+    margin-bottom: 0px;
+
+    font-weight: bold; /* normal, light, bolder, etc. */
+}
+
+h2 {
+    margin-top: 0px;
+
+    font-style: italic; /* normal, italic, oblique */
+}
+
+p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.15; /* can be pixels, or as the amount to multiple font-size by */
+
+    text-align: left; /* left, right, center, justify */
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.strikethrough {
+    text-decoration: line-through; /* line-through, underline, overline */
+}
+
+.capitalize {
+    text-transform: uppercase; /* all letters (capitalize only affects first letter per word) */
+}

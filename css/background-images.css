@@ -1,0 +1,54 @@
+body {
+    background-color: lightblue;
+    background-image: url(../img/more-leaves-on-green.png);
+    color: white;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 70px;
+    color: blue;
+}
+
+p {
+    color: white;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.highlight {
+    background: yellow;
+}
+
+.accent-color {
+    color: red;
+}
+
+.top-section {
+    background: pink;
+}
+
+.bottom-section {
+    background: green;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+
+    background: pink;
+    background-image: url(../img/balancebot.png); /* navigate from this file */
+    background-size: cover; /* can be auto (fixed resolution), contain (fit smaller dim), cover (fit larger dim) */
+    background-position: center; /* how image is lined up in frame */
+
+    margin: 100px;
+    border: 10px solid red;
+    padding: 50px 100px 300px 25px;
+
+    
+    
+    
+    
+}
