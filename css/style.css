@@ -12,6 +12,7 @@ p {
     color: navy;
 }
 
+
 /* classes begin with a "." */
 .intro {
     font-size: 30px;
@@ -33,13 +34,13 @@ p {
     background: green;
 }
 
+
 /* box model */
 /*
     margin: spacing around outside of box
     border: "frame" around the box
     padding: spacing on inside of box
 */
-
 .box {
     width: 500px;
     height: 500px;

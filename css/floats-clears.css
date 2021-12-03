@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    font-size: 21px;
+    font-family: sans-serif, monospace;
+}
+
+h1 {
+    font-size: 70px;
+    color: darkblue;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    color: navy;
+    background-color: yellow;
+
+    clear: both;
+}
+
+img {
+    float: left; /* left, right, none */
+    margin-right: 20px;
+}
+
+.red-box {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255,0,0,0.5);
+    float: left;
+
+    margin-right: 50px;
+}
+
+.blue-box {
+    height: 400px;
+    width: 700px;
+    background-color: blue;
+}

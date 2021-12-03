@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+    font-size: 21px;
+    font-family: sans-serif, monospace;
+}
+
+h1 {
+    font-size: 70px;
+    color: darkblue;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    color: navy;
+}
+
+ol {
+    
+    list-style-type: upper-alpha; /* upper/lower-roman/alpha */
+    list-style-position: inside; /* inside, outside, inherit */
+    
+    background-color: orange;
+    padding: 50px;
+}
+
+ul {
+    /* if you have an image to use as bullet */
+    list-style-image: url(../img/icon.png);
+    list-style-type: circle; /* circle, square, disc, none, etc. */
+
+    background-color: pink;
+    padding: 50px;
+}
+
+ol li { /* list item within unordered list */
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+ul li { /* list item within unordered list */
+    background-color: yellow;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,100 @@
+body {
+    background-color: lightblue;
+    color: darkgreen;
+    font-size: 21px;
+
+    /* go to https://www.cssfontstack.com/ for font families */
+    /* quotation marks for fonts with spaces */
+    font-family: sans-serif, monospace;
+}
+
+h1 {
+    font-size: 70px;
+    color: darkblue;
+    margin-bottom: 0px;
+
+    font-weight: bold; /* normal, light, bolder, etc. */
+}
+
+h2 {
+    margin-top: 0px;
+
+    font-style: italic; /* normal, italic, oblique */
+}
+
+p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.15; /* can be pixels, or as the amount to multiple font-size by */
+
+    text-align: left; /* left, right, center, justify */
+
+    color: red;
+}
+
+a { /* default link state */
+    color: black;
+    text-decoration: none; /* remove underline */
+}
+
+/* pseudo-classes, describing specific state */
+/* NOTE: must be in this order (if being used)! */
+a:link { /* for a fresh, untouched link */
+
+}
+
+a:visited { /* when site has been visited already */
+    /* color: pink; */
+}
+
+a:hover,  /* when mouse is hovering over */
+a:focus { /* when links are tabbed through */
+    color: yellow;
+}
+
+a:active { /* when clicked on */
+    color: blue;
+}
+
+
+/* classes */
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.strikethrough {
+    text-decoration: line-through; /* line-through, underline, overline */
+}
+
+.capitalize {
+    text-transform: uppercase; /* all letters (capitalize only affects first letter per word) */
+}
+
+/* selectors */
+.body-text { /* generic class */
+    background-color: white;
+    padding: 50px;
+}
+
+.body-text p {
+    color: blueviolet;
+}
+
+.body-text a {
+    color: orange;
+}
+
+.body-text a:hover {
+    color: red;
+}
+
+/* just .important-link is superceded by selectors within .body-text */
+/* this is due to higher specificity: https://specificity.keegan.st/  */
+.important-link {
+    color: green !important; /* !important supercedes everything, use sparingly */
+}
