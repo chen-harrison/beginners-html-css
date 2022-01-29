@@ -26,7 +26,7 @@ img {
     margin-right: 20px;
 }
 
-.red-box {
+/* .red-box {
     height: 500px;
     width: 500px;
     background-color: rgba(255,0,0,0.5);
@@ -39,4 +39,49 @@ img {
     height: 400px;
     width: 700px;
     background-color: blue;
+} */
+
+.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.box1 {
+    background: pink;
+}
+
+.box2 {
+    background: red;
+}
+
+.box3 {
+    background: firebrick;
+    float: left;
+}
+
+.box4 {
+    background: orange;
+}
+
+.box5 {
+    background: yellow;
+    clear: both;
+}
+
+.box6 {
+    background: lightgreen;
+}
+
+.box7 {
+    background: green;
+}
+
+.box8 {
+    background: blue;
+}
+
+.box9 {
+    background: purple;
+    opacity: 0.25; /* 0-1, acts as the alpha value, acts on text as well */
 }

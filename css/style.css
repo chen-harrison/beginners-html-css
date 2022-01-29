@@ -14,6 +14,13 @@ p {
 
 
 /* classes begin with a "." */
+.container {
+    background: white;
+    width: 75%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .intro {
     font-size: 30px;
 }
